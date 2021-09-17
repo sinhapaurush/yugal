@@ -41,7 +41,7 @@ const navigation = () => {
       </ul>`
   );
 }
-const home = screen(
+const home = comp(
   `Home Page`,
   ``,
 
@@ -50,7 +50,7 @@ const home = screen(
   HOME PAGE`
 );
 
-const about = screen(
+const about = comp(
   `About Screen`,
   ``,
   `
