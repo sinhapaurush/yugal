@@ -19,22 +19,15 @@
 
     $site_title = "YUGAL SITE TITLE"; 
     //This will be used by Framework and external Library will be able to reach it.
-    $yugal_noscript = "<div>
-        <h1>JAVASCRIPT ERROR</h1>
-        <p>Oops! Can't find JavaScript enabled in your browser, this site uses Javascript, please upgrade browser or enable Javascript.</p>
+    $yugal_noscript = "
+        <div style='position:fixed;width:100vw;height:100vh;background: #fff2f2;overflow:hidden;text-align:center;padding-top: 38vh'>
+    <div style='width:50vw;border:2px dotted red;background:#fff;display:inline-block;text-align:center;border-radus:20px;padding:20px'>
+    <h2 style='color:red'>JavaScript Error</h2>
+    <p>Can't Find JavaScript enabled in your browser, please upgrade your browser or enable JS in settings.
+    Click <a href=''>here to reload</a>.
+    </p>
+</div>
     </div>
-    <style>
-        noscript div{
-            width: 100vw;
-    height: 100vh;
-    background: #f6e4e4;
-    color: red;
-    font-weight: bold;
-    position: fixed;
-    text-align:center;
-    padding-top: 20px
-        }
-    </style>
     ";
     
     $webapp = false; //ENTER true if you are building webapp, else false. If you are not building webapp then you can delete 'menifest.webmenifest' file from dir.
