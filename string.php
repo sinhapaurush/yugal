@@ -16,7 +16,7 @@
     $universal_library = array(); 
     //All univarsal library should be in Array
 
-    $site_title = "PRANAH_NEW"; 
+    $site_title = "YUGAL SITE TITLE"; 
     //This will be used by Framework and external Library will be able to reach it.
     $noscript_tag = "<div style='position:fixed;width:100vw;height:100vh;background: #fff2f2;overflow:hidden;text-align:center;padding-top: 38vh'>
     <div style='width:50vw;border:2px dotted red;background:#fff;display:inline-block;text-align:center;border-radus:20px;padding:20px'>
