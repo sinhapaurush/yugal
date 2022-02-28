@@ -1,6 +1,6 @@
 <?php
     $theme_color = '#FFFFFF'; 
-    $favicon = array("https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Android_robot_head.svg/1200px-Android_robot_head.svg.png", "png"); 
+    $favicon = array(false, false); 
     /*
         ENTER PATH OF YOUR FAVICON OR UPLOAD FAVICON IN ROOT FOLDER WITH NAME 'favicon.ico' 
         or NO FAVICON WILL BE SET,
