@@ -2,6 +2,18 @@
 ini_set("display_errors", "1");
 http_response_code(200);
 include_once('./string.php');
+function import($array){
+    foreach ($array as $each_library) {
+        if (file_exists('lib/' . $each_library . '/header.php')) {
+            include_once('lib/' . $each_library . '/header.php');
+        }            
+    }
+    foreach ($array as $each) {
+        if (file_exists("lib/{$each}/index.php")) {
+            include_once("lib/{$each}/index.php");
+        }
+    }
+}
 function meta($arr)
 {
     global $theme_color;
